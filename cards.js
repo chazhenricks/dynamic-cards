@@ -18,6 +18,7 @@ function changeClass(){
 inputButton.addEventListener("click", function(event){
     container.innerHTML +=
         `<div class="card">
+            <p>${inputText.value}</p>
             <button type="button" class ="delete">DELETE</button>
         </div>`;
         changeClass();
